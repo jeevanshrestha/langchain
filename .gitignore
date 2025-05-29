@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Data, logs, outputs
+data/
+logs/
+outputs/
+*.log
+
+# Model checkpoints and weights
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.pb
+*.onnx
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Local experiment tracking
+mlruns/
+wandb/
+
+# Environment files
+*.env
+.env.*
+.env
+# Secret files
+secrets.*
+
+# Environment variable files
+*.env
+.env
+.env.*
